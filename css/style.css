@@ -1,0 +1,595 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth; 
+}
+body{
+     /* временное значение для фиксированного адаптива */
+   min-width: 1170px; 
+}
+h2{
+ font-family: 'Futura PT';
+font-style: normal;
+font-weight: 450;
+font-size: 50px;
+line-height: 64px;
+color: #414141;
+text-align: center;
+}
+button{
+    /* cursor: pointer; */
+}
+button a{
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 30px;
+    line-height: 38px;
+    color: #F8F7F3;  
+    text-decoration: none;
+}
+button:hover{
+transition: 1.5s;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0px 15px; 
+    /* временное значение для фиксированного адаптива */
+}
+                                         /* header */
+/* ----------------------------------------------------------------------------------- */
+                                /* start navigation */
+.block_navigation{
+    background-color: #265773;
+}
+.nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 26px 0px 26px 0px;
+}
+.nav_logo{
+    display: flex;
+}
+.nav_logo p{
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 450;
+font-size: 24px;
+line-height: 31px;
+letter-spacing: 0.045em;
+color: #F8F7F3;
+margin-left: 19px;
+}
+.nav  li{
+    display: inline;
+    padding-left:27px ;
+}
+.nav a{
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 31px;
+color: #F8F7F3;
+text-decoration: none;
+} 
+.nav a:hover{
+    color: #FFFFFF;
+}
+                        /* end navigation */
+/* ----------------------------------------------------------------------------------- */
+                        /* start img and button block */
+.header_img_button{
+
+background-image: url(../img/header/header_img.png)  ;
+background-repeat: no-repeat;
+background-size: 100%;
+padding: 133px 0px 156px 0px;
+background-color:  #F5F4F4;
+}
+.header_img_button h1{
+    font-family: 'Futura PT';
+font-style: normal;
+font-weight: 450;
+font-size: 80px;
+line-height: 103px;
+/* identical to box height */
+
+letter-spacing: 0.045em;
+margin-bottom: 168px;
+color: #FFFFFF;
+}
+.header_button_reg{
+    text-align: right;
+    margin-right: 120px;
+}
+
+.header_img_button button{
+width: 347px;
+height: 73px;
+background: #265773;
+border-radius: 10px;
+border: none;
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 450;
+font-size: 30px;
+line-height: 38px;
+color: #F8F7F3;
+}
+
+.header_img_button button:hover{
+    background-color: #2F698A;
+}
+
+                            /* end img and button block */
+/* ----------------------------------------------------------------------------------- */
+                            /* start main */
+/* ----------------------------------------------------------------------------------- */
+                         /* start about_us block */
+.about_us{
+    background-color: #F5F4F4;
+    padding-top: 54px;
+    padding-bottom: 168px;
+}
+.about_us_text{
+    text-align: center;
+}
+.about_us_text h2{
+    padding-bottom: 48px;
+}
+.about_us_text p{
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 300;
+font-size: 40px;
+line-height: 125.7%;
+color: #414141;
+text-align: left;
+padding-left: 50px;
+padding-bottom: 94px;
+}
+.about_us_img{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.about_us_icon1{
+    padding-top: 250px;
+    
+}
+.about_us_icon1 img{
+    cursor: pointer;
+}
+.about_us_icon2{
+    padding-top: 249px;
+}
+.about_us_icon2 img{
+    cursor: pointer;
+}
+.about_us_box img {
+    width: 500px;
+}
+                        /* end about_us block */
+/* ----------------------------------------------------------------------------------- */
+                         /* start our_advantages block */
+.our_advantages{
+    padding: 127px 0px 62px 0px;
+}
+.our_advantages h2{
+    margin-bottom: 140px;
+}
+.wrapper{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.our_advantages_box{
+  text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+}
+.advantages_box img{
+    width: 120px;
+    height: 120px;
+}
+.advantages_box{
+    width: 33%;
+    
+}
+.advantages_box img{
+margin-bottom: 38px;
+}
+.advantages_box p{
+    font-family: 'Futura PT';
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 97.7%;
+text-align: center;
+color: #414141;
+margin-bottom: 133px;
+}
+                         /* end our_advantages block */
+/* ----------------------------------------------------------------------------------- */
+                          /* start Service block */
+.services{
+padding: 39px 0px 132px 0px;
+background-color: rgba(245, 244, 244, 0.36);
+}
+.services h2{
+    margin-bottom: 44px;
+}
+.service_box{
+    display: flex;
+    margin-bottom: 47px;
+}
+.service_box_info{
+    width: 50%;
+    text-align: center;
+}
+.service_box_info button{
+width: 300px;
+height: 81px;
+border: none;
+border-radius: 10px;
+background-color: #E3E3E3;
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 450;
+font-size: 30px;
+line-height: 58px;
+color: #414141;
+margin-bottom: 40px;
+}
+.service_box_info button:hover{
+   background:#414141 ;
+   color: #F8F7F3;
+}
+.service_box_info img{
+    margin-bottom: 27px;
+}
+.service_box_info p{
+    font-family: 'Futura PT';
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 58px;
+text-align: center;
+color: black;
+}
+.services_signing{
+    text-align: right;
+}
+.services_signing button{
+width: 350px;
+height: 70px;
+border: none;
+background: #265773;
+border-radius: 11.2329px;
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 450;
+font-size: 33.6986px;
+line-height: 43px;
+color: #F8F7F3;
+}
+.services_signing button:hover{
+background-color: #2F698A;
+border-radius: 10px;    
+}
+
+                         /* end Service block */
+/* ----------------------------------------------------------------------------------- */
+                          /* start Season tickets block */
+.season_tickets{
+    padding: 106px 0px 147px 0px;
+}
+.season_tickets h2{
+    margin-bottom: 91px;    
+}
+.season_tickets p{
+    margin-bottom: 26px;
+}
+.season_tickets_form{
+background: #FDFDFD;
+box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.07);
+border-radius: 10px;
+display: flex;
+padding-bottom: 78px;
+}
+.form_text{
+width: 50%;
+text-align: left;
+}
+.form_text h2{
+text-align: left;
+margin-bottom: 50px;
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 450;
+font-size: 50px;
+line-height: 64px;
+color: #265773;
+margin-left: 52px;
+margin-top: 51px;
+}
+.form_text-container{
+    margin-left: 52px;
+    border-left: 1.5px solid rgba(65, 65, 65, 0.38);
+    padding-left: 25px;
+}
+.form_text-container p{
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 400;
+font-size: 45px;
+line-height: 58px;
+
+color: #6E6E6E;
+}
+.form_text-container p:hover{
+    cursor: pointer;
+color: #414141;
+}
+.form_ticket{
+    width: 50%;
+    padding-top: 71px;
+    padding-right: 22px;
+}
+.form_ticket-conteiner{
+    display: flex;
+    justify-content: space-around;
+}
+.form_ticket-box{
+    width: 265px;
+background-color: #FFFFFF;
+box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.07);
+text-align: center;
+margin-bottom: 111px;
+padding-top: 36px;
+padding-bottom: 38px;
+}
+.form_ticket-box p{
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 46px;
+color: #414141;
+}
+.form_ticket-box span{
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 450;
+font-size: 36px;
+line-height: 46px;   
+color: #265773;   
+
+}
+.form_ticket-button{
+    text-align: right;
+}
+.form_ticket button{
+width: 347px;
+height: 73px;
+background: #265773;
+border-radius: 10px;
+border: none;
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 450;
+font-size: 30px;
+line-height: 38px;
+color: #F8F7F3;
+margin-right: 52px;
+}
+.form_ticket button:hover{
+background-color: #2F698A;
+cursor: pointer;
+border-radius: 10px;     
+}
+ 
+                          /* end Season tickets block */
+/* ----------------------------------------------------------------------------------- */
+                          /* start Order Form block */
+.order_form{
+    margin-bottom: 162px;
+}
+.order_form h2{
+margin-bottom: 67px;
+}
+.order_form_backround{
+background-color: #758F9E;
+padding: 137px 0px 178px 0px;
+}
+.form_recording{
+background-color:  #FFFFFF;
+box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.07);
+border-radius: 10px;
+padding: 84px 67px 80px 67px;
+}
+.form_recording_conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.form_recording_box{
+    width: 33%;
+}
+.form_recording_box p{
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 450;
+font-size: 30px;
+line-height: 38px;
+color: #414141;
+margin-bottom: 9px;
+}
+input[type=text] {
+width: 295px;
+height: 64px;
+background: #F2F2F2;
+border-radius: 10px;
+border: none;
+margin-bottom: 34px;
+text-align: left;
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 450;
+font-size: 30px;
+line-height: 38px;
+color: #414141;
+padding-left: 10px;
+}
+select{
+    width: 290px;
+height: 64px;
+background: #F2F2F2;
+border-radius: 10px;
+border: none;
+margin-bottom: 34px;
+text-align: left;
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 450;
+font-size: 30px;
+line-height: 38px;
+color: #414141;
+padding-left: 10px;
+}
+.form_recording_button{
+    text-align: right;
+    margin-top: 26px;
+}
+.form_recording_button button{
+width: 347px;
+height: 73px;
+background-color: #265773;
+border-radius: 10px;
+border: none;
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 450;
+font-size: 30px;
+line-height: 38px;
+text-align: center;
+color: #F8F7F3;
+}
+.form_recording_button button:hover{
+    background-color: #2F698A;
+    border-radius: 10px;  
+}
+.castom_input select{
+    appearance: none;
+    background-image: url(../img/main/OrderForm/order3.svg);
+    background-repeat: no-repeat;
+    background-position: 90% 50%;
+}
+.castom_input_two {
+    width: 295px;
+    height: 64px;
+    background: #F2F2F2;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 34px;  
+}
+.castom_input_two ul{
+list-style: none;
+padding-right: 10%;
+padding-left: 10%;
+display: flex;
+justify-content: space-between;
+font-family: 'Futura PT';
+font-style: normal;
+font-weight: 300;
+font-size: 50px;
+line-height: 38px;
+cursor: pointer;
+color: #414141;
+}
+li:first-child{
+ padding-top: 2%;   
+}
+li:last-child{
+    padding-top: 5%;
+}
+.castom_input_two ul li:hover{
+    color: blue  
+}
+                         /* end Order Form block */
+/* ----------------------------------------------------------------------------------- */
+                         /* start footer block */
+
+.footer_name h2{
+margin-bottom: 35px;
+}
+.footer_information{
+background-color: #E6E6E6;
+padding-bottom: 26px;
+padding-top: 65px;
+}
+
+.footer_container{
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-bottom: 105px;
+}
+.footer_info{
+
+border-radius: 10px;
+margin-left: 26px;
+width: 601px;
+
+}
+.footer_info h3{
+    font-family: 'Futura PT';
+font-style: normal;
+font-weight: 450;
+font-size: 30px;
+line-height: 38px;
+display: flex;
+align-items: center;
+color: #414141;
+
+}
+.footer_info p{
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 38px;
+    
+    /* U3 */
+    
+    color: #414141;
+
+}
+.footer_information hr{
+   
+    width: 1030px;
+border: 2px solid rgba(65, 65, 65, 0.42);
+margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 36px;
+}
+.footer_end_info p{
+    text-align: center;
+    font-family: 'Futura PT';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 26px;
+color: #414141;
+}
+.footer_end_info p::before{
+    content: ' \00A9';
+}
+                          /* end footer block */
